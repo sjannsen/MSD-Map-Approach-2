@@ -1,0 +1,9 @@
+.map-container {
+	background-color: #fffddd;
+	width: 500px;
+	margin-bottom: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}

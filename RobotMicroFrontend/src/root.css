@@ -1,0 +1,38 @@
+.robot-container {
+	background-color: #cdcdcd;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.robot-grid {
+	display: grid;
+	grid-template-areas: "left mid right";
+	border: 1px solid black;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	width: 50%;
+}
+
+.left {
+	grid-area: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .mid {
+	grid-area: mid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .right {
+	grid-area: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
