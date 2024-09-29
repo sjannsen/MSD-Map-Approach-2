@@ -22,7 +22,7 @@ In summary, the second approach involves having the robots as separate component
 To install the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/sjannsen/MEA-Map.git
+git clone https://github.com/sjannsen/MSD-Map-Approach-2.git
 ```
 ### On the first start of the project
 
