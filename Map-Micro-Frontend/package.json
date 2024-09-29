@@ -1,5 +1,5 @@
 {
-  "name": "@MEA/React-MicroFrontend2",
+  "name": "@MEA/Map-Micro-Frontend",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",

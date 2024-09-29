@@ -1,5 +1,5 @@
 {
-  "name": "@MEA/Robot-MicroFrontend",
+  "name": "@MEA/Robot-Micro-Frontend",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
@@ -57,5 +57,5 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9"
   },
-  "types": "dist/MEA-Robot-MicroFrontend.d.ts"
+  "types": "dist/MEA-Robot-Micro-Frontend.d.ts"
 }

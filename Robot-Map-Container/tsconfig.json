@@ -4,7 +4,7 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
-  "files": ["src/MEA-React-MicroFrontend2.tsx"],
+  "files": ["src/MEA-Robot-Map-Container.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }

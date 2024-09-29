@@ -1,5 +1,5 @@
 {
-  "name": "@MEA/React-MicroFrontend",
+  "name": "@MEA/Robot-Map-Container",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
@@ -57,5 +57,5 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9"
   },
-  "types": "dist/MEA-React-MicroFrontend.d.ts"
+  "types": "dist/MEA-Robot-Map-Container.d.ts"
 }

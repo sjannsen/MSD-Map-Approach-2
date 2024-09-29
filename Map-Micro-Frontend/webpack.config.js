@@ -4,12 +4,15 @@ const singleSpaDefaults = require("webpack-config-single-spa-react-ts");
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
     orgName: "MEA",
-    projectName: "Robot-MicroFrontend",
+    projectName: "Map-Micro-Frontend",
     webpackConfigEnv,
     argv,
   });
 
   return merge(defaultConfig, {
     // modify the webpack config however you'd like to by adding to this object
+    devServer: {
+      port: 3002,
+    },
   });
 };
