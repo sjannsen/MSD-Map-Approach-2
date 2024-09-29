@@ -5,6 +5,7 @@ This repository is a proof-of-concept for the second approach of the Map as Micr
 In summary, the second approach involves having the robots as separate components that are positioned on the corresponding planets in the Planet Micro-Frontend by the Container application. In this case, this concept has been demonstrated with a single robot.
 
 ## Table of Contents
+- [Installation](#installation)
 - [On the first start of the project](#on-the-first-start-of-the-project)
 - [To start the project automatically](#to-start-the-project-automatically)
 - [To stop the project automatically](#to-stop-the-project-automatically)
@@ -16,8 +17,13 @@ In summary, the second approach involves having the robots as separate component
 - [Common Issues](#common-issues)
 
 
-<br>
+## Installation
 
+To install the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/sjannsen/MEA-Map.git
+```
 ### On the first start of the project
 
 ```chmod +x init-dependencies.sh```
